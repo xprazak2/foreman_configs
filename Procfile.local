@@ -1,0 +1,1 @@
+./node_modules/.bin/webpack-dev-server --config config/webpack.config.js --https --key /etc/pki/katello/private/centos-devel.example.com-foreman-client.key --cert /etc/pki/katello/certs/centos-devel.example.com-foreman-client.crt --cacert /etc/pki/katello/certs/katello-default-ca.crt --watch --progress --public centos-devel.example.com --port 3808
