@@ -1,0 +1,20 @@
+#your default puppet server - can be overridden in the host level
+#if none specified, plain "puppet" will be used.
+#:puppet_server: puppet
+:unattended: true
+:login: true
+:require_ssl: false
+:locations_enabled: true
+:organizations_enabled: true
+
+# The following values are used for providing default settings during db migrate
+:oauth_active: true
+:oauth_map_users: true
+:oauth_consumer_key: pr2crL2Numazmb9VaBJo22spxgDXyTBT
+:oauth_consumer_secret: YUHgLukAvuuHq9r482t93KcimEnfQxmK
+
+:webpack_dev_server: true
+:webpack_dev_server_https: true
+
+:mark_translated: false
+:rails: 4.2
