@@ -1,0 +1,27 @@
+---
+:enabled: true
+
+# Log file for the forwarding script.
+:openscap_send_log_file: /home/vagrant/scap_files/openscap-send.log
+
+# Directory where OpenSCAP audits are stored
+# before they are forwarded to Foreman
+:spooldir: /home/vagrant/scap_files/openscap
+
+# Directory where OpenSCAP content XML are stored
+# So we will not request the XML from Foreman each time
+:contentdir: /home/vagrant/scap_files/content
+
+# Directory where OpenSCAP tailoring XML files are stored
+:tailoring_dir: /home/vagrant/scap_files/tailoring
+
+# Directory where OpenSCAP report XML are stored
+# So Foreman can request arf xml reports
+:reportsdir: /home/vagrant/scap_files/reports
+
+# Directory where OpenSCAP report XML are stored
+# In case sending to Foreman succeeded, yet failed to save to reportsdir
+:failed_dir: /home/vagrant/scap_files/failed
+
+
+:corrupted_dir: /home/vagrant/scap_files/corrupted
