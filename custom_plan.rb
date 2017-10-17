@@ -13,10 +13,7 @@ class CustomPlan < Zeus::Rails
     $LOAD_PATH.unshift '../katello/test'
     $LOAD_PATH.unshift '../katello/spec'
     $LOAD_PATH.unshift '../foreman_openscap/test'
-    $LOAD_PATH.unshift '../foreman_pipeline/test'
     $LOAD_PATH.unshift '../foreman/test'
-    $LOAD_PATH.unshift '../foreman_discovery/test'
-    $LOAD_PATH.unshift '../foreman_remote_execution/test'
     # require 'katello_test_runner'
     super
   end
