@@ -12,7 +12,7 @@ class CustomPlan < Zeus::Rails
     MiniTest::Unit.class_variable_set("@@installed_at_exit", true)
     $LOAD_PATH.unshift '../katello/test'
     $LOAD_PATH.unshift '../katello/spec'
-    $LOAD_PATH.unshift '../foreman_openscap/test'
+    # $LOAD_PATH.unshift '../foreman_openscap/test'
     $LOAD_PATH.unshift '../foreman/test'
     # require 'katello_test_runner'
     super
