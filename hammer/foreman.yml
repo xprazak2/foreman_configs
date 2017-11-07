@@ -1,0 +1,5 @@
+:foreman:
+  :enable_module: true
+  :host: 'https://foreman-devel.example.com/'
+  :username: 'admin'
+  :password: 'changeme'
